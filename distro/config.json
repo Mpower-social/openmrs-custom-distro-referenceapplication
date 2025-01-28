@@ -1,0 +1,15 @@
+{
+  "@openmrs/esm-member-list-app": {
+    "extensionSlots": {
+      "homepage-dashboard-slot": {
+        "configure": {
+          "member-list-dashboard-link": {
+            "Display Conditions": {
+              "privileges": ["Admin Privilege"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

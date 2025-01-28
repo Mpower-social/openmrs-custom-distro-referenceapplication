@@ -218,6 +218,12 @@
                   </includes>
                   <filtering>true</filtering>
                 </resource>
+                <resource>
+      <directory>${project.basedir}/distro</directory>
+      <includes>
+        <include>config.json</include>
+      </includes>
+    </resource>
               </resources>
             </configuration>
           </execution>

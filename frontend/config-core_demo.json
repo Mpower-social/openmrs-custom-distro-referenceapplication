@@ -37,5 +37,19 @@
     "Brand color #1": "#970004",
     "Brand color #3": "#af3e2b", 
     "Brand color #2": "#641006" 
+  },
+
+  "@openmrs/esm-member-list-app": {
+    "extensionSlots": {
+      "homepage-dashboard-slot": {
+        "configure": {
+          "member-list-dashboard-link": {
+            "Display Conditions": {
+              "privileges": ["Admin Privilege"]
+            }
+          }
+        }
+      }
+    }
   }
 }

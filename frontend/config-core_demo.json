@@ -39,7 +39,7 @@
     "Brand color #2": "#641006" 
   },
 
-  "@openmrs/esm-member-list-app": {
+  "@openmrs/esm-home-app": {
     "extensionSlots": {
       "homepage-dashboard-slot": {
         "configure": {

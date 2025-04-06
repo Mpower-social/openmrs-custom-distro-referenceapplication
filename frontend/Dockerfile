@@ -11,7 +11,7 @@ WORKDIR /app
 
 COPY spa-assemble-config.json .
 COPY spa-build-config.json .
-COPY custom_modules/esm-patient-registration-app.tgz .
+# COPY custom_modules/esm-patient-registration-app.tgz .
 COPY custom_modules/esm-member-list-app.tgz .
 COPY custom_modules/esm-form-engine-app-1.0.0.tgz .
 COPY custom_modules/esm-member-profile-app.tgz .

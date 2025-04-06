@@ -17,8 +17,8 @@
     "@openmrs/esm-form-builder-app": "next",
     "@openmrs/esm-member-list-app": "file:esm-member-list-app.tgz",
     "@openmrs/esm-form-engine-app": "file:esm-form-engine-app-1.0.0.tgz",
-    "@openmrs/esm-member-profile-app": "file:esm-member-profile-app.tgz",
-    "@openmrs/esm-patient-registration-app": "next",
+    "@openmrs/esm-member-profile-app": "next",
+    "@openmrs/esm-patient-registration-app": "file:esm-patient-registration-app.tgz",
     "@openmrs/esm-home-app": "file:esm-home-app.tgz",
     "@openmrs/esm-primary-navigation-app": "file:esm-primary-navigation-app.tgz",
     "@openmrs/esm-login-app": "file:esm-login-app.tgz"

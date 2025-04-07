@@ -16,7 +16,7 @@ COPY custom_modules/esm-member-list-app.tgz .
 COPY custom_modules/esm-form-engine-app-1.0.0.tgz .
 COPY custom_modules/esm-member-profile-app.tgz .
 COPY custom_modules/esm-home-app.tgz .
-# COPY custom_modules/esm-primary-navigation-app.tgz .
+COPY custom_modules/esm-primary-navigation-app.tgz .
 COPY custom_modules/esm-login-app.tgz .
 # COPY custom_modules/esm-video-call-app.tgz .
 

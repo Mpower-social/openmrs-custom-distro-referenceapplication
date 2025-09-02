@@ -17,6 +17,13 @@ docker compose build
 docker compose up
 ```
 
+
+### Run the app for CHCP only
+
+```
+sudo ./init.sh
+```
+
 The new OpenMRS UI is accessible at http://localhost/openmrs/spa
 
 OpenMRS Legacy UI is accessible at http://localhost/openmrs

@@ -44,7 +44,7 @@ services:
       test: ["CMD", "curl", "-f", "http://localhost:8080/openmrs"]
       timeout: 5s
     volumes:
-      - /opt/openmrs-o3/data:/openmrs/data
+      - openmrs-data:/openmrs/data
       - ./modules:/openmrs/data/modules
 
   # MariaDB
@@ -64,7 +64,10 @@ services:
       MYSQL_PASSWORD: ${OMRS_DB_PASSWORD:-openmrs}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-openmrs}
     volumes:
-      - /opt/openmrs-o3/mysql:/var/lib/mysql
+      - db-data:/var/lib/mysql
       - ./DB/openmrs.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
       - "3306:3306"
+volumes:
+  openmrs-data: ~
+  db-data: ~

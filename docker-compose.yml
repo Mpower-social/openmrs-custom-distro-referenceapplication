@@ -9,7 +9,7 @@ services:
       - frontend
       - backend
     ports:
-      - "4444:80"
+      - "80:80"
 
   frontend:
     image: mpower786/openmrs-reference-application-3-frontend:chcp-app
@@ -67,4 +67,4 @@ services:
       - /opt/openmrs-o3/mysql:/var/lib/mysql
       - ./DB/openmrs.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
-      - "3333:3306"
+      - "3306:3306"

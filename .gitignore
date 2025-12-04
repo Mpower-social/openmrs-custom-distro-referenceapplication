@@ -2,3 +2,9 @@
 **/.DS_Store
 **/node_modules/
 .idea/
+modules/
+*.log
+openmrs.sql
+*.sql
+docker-compose.yml
+
